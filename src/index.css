@@ -1,4 +1,4 @@
-* {
+/* * {
   box-sizing: border-box;
 }
 
@@ -47,6 +47,26 @@ h1, h2 {
 
 .actions {
   text-align: right;
+} */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  background-color: #fcf3f6;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #2c292b;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #2c292b;
 }
 
 .modal {
@@ -60,6 +80,7 @@ h1, h2 {
   position: fixed;
   top: 20vh;
   left: calc(50% - 15rem);
+  
 }
 
 .backdrop {
